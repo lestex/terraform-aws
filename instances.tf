@@ -7,7 +7,7 @@ resource "aws_instance" "instance1" {
   key_name = "mykeypair"
 
   tags {
-    Name = "Public instance "    
+    Name = "Public instance"
   }
 }
 
