@@ -9,7 +9,7 @@ resource "aws_nat_gateway" "nat-gateway" {
   subnet_id = "${aws_subnet.main-public-1.id}"
   depends_on = ["aws_internet_gateway.main-gw"]
 
-  tags = {
+  tags {
     Name = "nat-gateway"
   }
 }
