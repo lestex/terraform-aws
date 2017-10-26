@@ -25,7 +25,6 @@ resource "aws_route_table" "main-public" {
     cidr_block = "0.0.0.0/0"
     gateway_id = "${aws_internet_gateway.main-gw.id}"
   }
-
   tags {
     Name = "main-public-1"
   }
