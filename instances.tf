@@ -5,6 +5,7 @@ resource "aws_instance" "instance1" {
                             "${data.aws_security_group.default-sg.id}"]
   subnet_id = "${aws_subnet.main-public-1.id}"
   key_name = "mykeypair"
+  availability_zone = "eu-central-1a"
 
   tags {
     Name = "Public instance"
