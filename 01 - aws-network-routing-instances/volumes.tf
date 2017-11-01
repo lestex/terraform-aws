@@ -8,7 +8,7 @@ resource "aws_ebs_volume" "ebs-volume-1" {
 }
 
 resource "aws_volume_attachment" "ebs-volume-1-attachment" {
-  device_name = "/dev/xvdh"
+  device_name = "${var.device_name}"
   volume_id = "${aws_ebs_volume.ebs-volume-1.id}"
   instance_id = "${aws_instance.instance1.id}"
 }
