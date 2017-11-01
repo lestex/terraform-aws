@@ -14,5 +14,7 @@ Examples:
 
 [aws-route53](https://github.com/lestex/terraform-aws/tree/master/02%20-%20aws-route53)
 
+- creates instance in default VPC
+- creates SG for http access
 - adds DNS zone
-- adds records to that zone
+- adds records that point to the instance

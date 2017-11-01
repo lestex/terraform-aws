@@ -2,8 +2,10 @@
 
 What it does:
 
+- creates instance in default VPC
+- creates SG for http access
 - adds DNS zone
-- adds records to that zone
+- adds records that point to the instance
 
 ### Variables
 

@@ -1,23 +1,26 @@
 resource "aws_route53_zone" "devopslab" {
    name = "devopslab.pro"
 }
+
 resource "aws_route53_record" "server1-record" {
    zone_id = "${aws_route53_zone.devopslab.zone_id}"
-   name = "server1.devopslab.pro"
+   name = "server1.${var.DNS_ZONE_NAME}"
    type = "A"
    ttl = "300"
-   records = ["104.236.247.8"]
+   records = ["${aws_instance.instance1.public_ip}"]
 }
+
 resource "aws_route53_record" "www-record" {
    zone_id = "${aws_route53_zone.devopslab.zone_id}"
-   name = "www.devopslab.pro"
+   name = "www.${var.DNS_ZONE_NAME}"
    type = "A"
    ttl = "300"
-   records = ["104.236.247.8"]
+   records = ["${aws_instance.instance1.public_ip}"]
 }
+
 resource "aws_route53_record" "mail1-record" {
    zone_id = "${aws_route53_zone.devopslab.zone_id}"
-   name = "devopslab.pro"
+   name = "${var.DNS_ZONE_NAME}"
    type = "MX"
    ttl = "300"
    records = [
@@ -27,8 +30,4 @@ resource "aws_route53_record" "mail1-record" {
      "10 aspmx2.googlemail.com.",
      "10 aspmx3.googlemail.com."
    ]
-}
-
-output "ns-servers" {
-   value = "${aws_route53_zone.devopslab.name_servers}"
 }
