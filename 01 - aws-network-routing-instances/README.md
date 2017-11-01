@@ -17,6 +17,6 @@ What it does:
 
 ### Usage
 
-    
+    terraform init
     terraform plan --out out.terraform
     terraform apply out.terraform
