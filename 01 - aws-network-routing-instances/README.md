@@ -17,5 +17,5 @@ What it does:
 ### Usage
 
     
-    terraform plan
-    terraform apply
+    terraform plan --out out.terraform
+    terraform apply out.terraform
