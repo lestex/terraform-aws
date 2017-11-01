@@ -22,3 +22,11 @@
 - creates 2 users
 - adds users to the group
 - attaches policy to the group
+
+[aws-ec2-rds](https://github.com/lestex/terraform-aws/tree/master/04%20-aws-ec2-rds)
+
+- Sets up VPC, route tables and internet gateway
+- Sets up 3 public and 3 private subnets
+- Creates a security group to allow SSH and ICMP traffic to hosts in public subnet
+- Deploys one instance to public subnet
+- Creates a RDS instance with parameters
