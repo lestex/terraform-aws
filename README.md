@@ -1,10 +1,7 @@
-## This is a basic AWS Terraform project
-
-
-Examples:
+# Basic AWS Terraform projects
 
 [aws-network-routing-instances](https://github.com/lestex/terraform-aws/tree/master/01%20-%20aws-network-routing-instances)
-    
+
 - Sets up VPC, route tables and internet gateway
 - Sets up 3 public and 3 private subnets
 - Creates a security group to allow SSH and ICMP traffic to hosts in public subnet
@@ -18,3 +15,10 @@ Examples:
 - creates SG for http access
 - adds DNS zone
 - adds records that point to the instance
+
+[aws-iam]()
+
+- creates a group - administrators
+- creates 2 users
+- adds users to the group
+- attaches policy to the group
