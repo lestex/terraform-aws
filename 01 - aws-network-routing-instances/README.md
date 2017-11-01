@@ -17,6 +17,15 @@ What it does:
 
 ### Usage
 
+Initialize:
+
     terraform init
+
+Plan and apply:
+
     terraform plan --out out.terraform
     terraform apply out.terraform
+
+Destroy:
+
+    terraform destroy

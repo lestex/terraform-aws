@@ -16,7 +16,7 @@
 - adds DNS zone
 - adds records that point to the instance
 
-[aws-iam]()
+[aws-iam](https://github.com/lestex/terraform-aws/tree/master/03%20-%20aws-iam)
 
 - creates a group - administrators
 - creates 2 users
