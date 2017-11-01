@@ -31,7 +31,7 @@
 - Deploys one instance to public subnet
 - Creates a RDS instance with parameters
 
-[aws-ec2-s3]()
+[aws-ec2-s3](https://github.com/lestex/terraform-aws/tree/master/05%20-%20aws-ec2-s3)
 
 - Sets up VPC, route tables and internet gateway
 - Sets up 3 public and 3 private subnets
