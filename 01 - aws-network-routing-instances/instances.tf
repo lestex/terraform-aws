@@ -7,6 +7,9 @@ resource "aws_instance" "instance1" {
   key_name = "mykeypair"
   availability_zone = "eu-central-1a"
 
+   # user data
+  user_data = "${data.template_cloudinit_config.cloudinit-example.rendered}"
+
   tags {
     Name = "Public instance"
   }
