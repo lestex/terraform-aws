@@ -14,7 +14,6 @@ What it does:
 "PATH_TO_PUBLIC_KEY" defaults to "~/.ssh/id_rsa.pub"
 
 ### Usage:
-
     
     terraform plan
     terraform apply
