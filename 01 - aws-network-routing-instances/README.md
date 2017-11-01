@@ -7,6 +7,7 @@ What it does:
 - Creates a security group to allow SSH and ICMP traffic to hosts in public subnet
 - Deploys one instance to public subnet and second to private
 - Creates and attaches EBS volume to a EC2 instance in public network
+- Using cloud-config and bash script installs packages and creates LVM volume
 
 ### Variables
 
