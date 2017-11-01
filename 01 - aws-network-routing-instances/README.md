@@ -6,7 +6,7 @@ What it does:
 - Sets up 3 public and 3 private subnets
 - Creates a security group to allow SSH and ICMP traffic to hosts in public subnet
 - Deploys one instance to public subnet and second to private
-- Attaches EBS volume to a EC2 instance in public network
+- Creates and attaches EBS volume to a EC2 instance in public network
 
 ### Variables
 
