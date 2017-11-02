@@ -39,3 +39,12 @@
 - Creates S3 bucket
 - Creates IAM policies to access the S3 bucket
 - Deploys one instance to public subnet with S3 access policies
+
+
+[aws-autoscaling]()
+- Sets up VPC, route tables and internet gateway
+- Creates a security group to allow SSH, HTTP to hosts in public 
+subnet
+- Sets up launch configuration for instances
+- Creates an autoscaling group
+- Creates a scale up and scale down policies
