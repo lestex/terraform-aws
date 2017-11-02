@@ -41,7 +41,7 @@
 - Deploys one instance to public subnet with S3 access policies
 
 
-[aws-autoscaling]()
+[aws-autoscaling](https://github.com/lestex/terraform-aws/tree/master/06%20-%20aws-autoscaling)
 - Sets up VPC, route tables and internet gateway
 - Creates a security group to allow SSH, HTTP to hosts in public 
 subnet
