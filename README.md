@@ -42,9 +42,20 @@
 
 
 [aws-autoscaling](https://github.com/lestex/terraform-aws/tree/master/06%20-%20aws-autoscaling)
+
 - Sets up VPC, route tables and internet gateway
 - Creates a security group to allow SSH, HTTP to hosts in public 
 subnet
 - Sets up launch configuration for instances
 - Creates an autoscaling group
 - Creates a scale up and scale down policies
+
+[aws-autoscaling-elb](https://github.com/lestex/terraform-aws/tree/master/07%20-%20aws-autoscaling-elb)
+
+- Sets up VPC, route tables and internet gateway
+- Sets up 3 public and 3 private subnets
+- Creates a security group to allow SSH to hosts in public subnet
+- Creates a security group to allow HTTP to ELB
+- Sets up launch configuration for instances
+- Creates an ELB
+- Creates 2 instances behind ELB
