@@ -1,11 +1,11 @@
 variable "region" {
-    description = "Default region to put resources"
-    default = "eu-central-1"
+  description = "Default region to put resources"
+  default     = "eu-central-1"
 }
 
 variable "count" {
-    description = "number of hosts to create"
-    default     = "2"
+  description = "number of hosts to create"
+  default     = "2"
 }
 
 variable "zones" {

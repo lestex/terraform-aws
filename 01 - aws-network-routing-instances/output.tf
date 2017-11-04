@@ -7,5 +7,5 @@ output "public_ip" {
 }
 
 output "default_sg" {
-  value = "${data.aws_security_group.default-sg.id}" 
+  value = "${data.aws_security_group.default-sg.id}"
 }

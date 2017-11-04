@@ -7,4 +7,4 @@ variable "PATH_TO_PUBLIC_KEY" {
 }
 
 # will ask you for password, enter at least 8 chars
-variable "RDS_PASSWORD" { }
+variable "RDS_PASSWORD" {}

@@ -1,7 +1,7 @@
 resource "aws_security_group" "sgroup-1" {
   description = "Allows SSH, ICMP inbound traffic"
-  name = "allow_ssh_icmp"
-  vpc_id = "${aws_vpc.main.id}"
+  name        = "allow_ssh_icmp"
+  vpc_id      = "${aws_vpc.main.id}"
 
   ingress {
     from_port   = 22
