@@ -67,3 +67,12 @@ subnet
 [ecr-demo-1](https://github.com/lestex/terraform-aws/tree/master/09%20-%20ecr-demo-1)
 
 - Creates a ECR
+
+[ecr-demo-2](https://github.com/lestex/terraform-aws/tree/master/10%20-%20ecr-demo-2)
+
+- Creates a ECR
+- Creates a ECS instance from appropriate AMI
+- Creates a ECS cluster
+- Adds cluster to ELB
+- Runs app on ECS
+- Adds security groups
