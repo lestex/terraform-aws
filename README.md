@@ -76,3 +76,13 @@ subnet
 - Adds cluster to ELB
 - Runs app on ECS
 - Adds security groups
+
+[ecr-demo-3](https://github.com/lestex/terraform-aws/tree/master/10%20-%20ecr-demo-3)
+
+- Creates a ECR
+- Creates a ECS instance from appropriate AMI
+- Creates a ECS cluster
+- Adds cluster to ELB
+- Runs app on ECS
+- Adds security groups
+- Adds Jenkins instance
