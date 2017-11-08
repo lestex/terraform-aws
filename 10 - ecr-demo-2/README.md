@@ -2,12 +2,12 @@
 
 What it does:
 
-- Sets up VPC, route tables and internet gateway
-- Sets up 3 public and 3 private subnets
-- Creates a security group to allow SSH to hosts in public subnet
-- Creates S3 bucket
-- Creates IAM policies to access the S3 bucket
-- Deploys one instance to public subnet with S3 access policies
+- Creates a ECR
+- Creates a ECS instance from appropriate AMI
+- Creates a ECS cluster
+- Adds cluster to ELB
+- Runs app on ECS
+- Adds security groups
 
 ### Variables
 
