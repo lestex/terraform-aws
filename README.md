@@ -59,3 +59,11 @@ subnet
 - Sets up launch configuration for instances
 - Creates an ELB
 - Creates 2 instances behind ELB
+
+[aws-beanstalk](https://github.com/lestex/terraform-aws/tree/master/08%20-%20aws-beanstalk)
+
+- Adds elastic beanstalk service
+
+[ecr-demo-1](https://github.com/lestex/terraform-aws/tree/master/09%20-%20ecr-demo-1)
+
+- Creates a ECR
