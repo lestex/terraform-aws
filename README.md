@@ -77,7 +77,7 @@ subnet
 - Runs app on ECS
 - Adds security groups
 
-[ecr-demo-3](https://github.com/lestex/terraform-aws/tree/master/10%20-%20ecr-demo-3)
+[ecr-demo-3](https://github.com/lestex/terraform-aws/tree/master/11%20-%20ecr-demo-3)
 
 - Creates a ECR
 - Creates a ECS instance from appropriate AMI
@@ -91,7 +91,7 @@ subnet
 
 - Adds Packer for image (ami) provisioning
 
-[aws-packer-jenkins](https://github.com/lestex/terraform-aws/tree/master/12%20-%20aws-packer-jenkins)
+[aws-packer-jenkins](https://github.com/lestex/terraform-aws/tree/master/13%20-%20aws-packer-jenkins)
 
 - Adds Packer for image (ami) provisioning
 - Adds Jenkins
