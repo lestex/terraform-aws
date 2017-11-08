@@ -2,7 +2,7 @@
 
 What it does:
 
-- Adds Packer for image (ami) prvisioning
+- Adds Packer for image (ami) provisioning
 
 ### Variables
 

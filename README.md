@@ -86,3 +86,12 @@ subnet
 - Runs app on ECS
 - Adds security groups
 - Adds Jenkins instance
+
+[aws-packer](https://github.com/lestex/terraform-aws/tree/master/12%20-%20aws-packer)
+
+- Adds Packer for image (ami) provisioning
+
+[aws-packer-jenkins](https://github.com/lestex/terraform-aws/tree/master/12%20-%20aws-packer-jenkins)
+
+- Adds Packer for image (ami) provisioning
+- Adds Jenkins
